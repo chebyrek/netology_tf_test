@@ -1,9 +1,8 @@
 provider "aws" {
-  region = "eu-central-1"
+  region = "us-west-2"
 }
 
 resource "aws_instance" "test2" {
-    ami           = "ami-03c10046b8071fff5"
+    ami           = "ami-0a12b6f54cdcb8114 "
     instance_type = "t2.micro"
-    availability_zone = "eu-central-1"
 }
